@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #282D35;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #21222A;
+  height: 91px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .left {
+  display: flex;
+  align-items: center;
+  -webkit-margin-start: 22px;
+          margin-inline-start: 22px;
+  gap: 4px;
+}
+nav h1 {
+  color: #61dafb;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+}
+nav h2 {
+  color: rgb(222, 235, 248);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: relative;
+  right: 20px;
+  top: 0;
+}
+
+main {
+  padding: 57px 27px;
+  color: #FFFFFF;
+  background-image: url(/src/assets/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+main .title {
+  margin: 0;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+main ul {
+  margin-top: 46px;
+}
+main ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: inherit;
+  padding-block: 10px;
+}
+main ul ::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}/*# sourceMappingURL=style.css.map */
